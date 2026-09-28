@@ -26,7 +26,7 @@ Babel is powered by Claude (Anthropic) or ChatGPT (OpenAI) through your own API 
 1. Install Tampermonkey from the Chrome Web Store.
 2. Open `chrome://extensions`, click **Details** on Tampermonkey and turn on **Allow User Scripts**. Current Chrome versions require this for any userscript manager.
 3. Install the script from [Greasy Fork](https://greasyfork.org/scripts/597787-google-translate-stowaway) and click **Install this script**.
-Alternatively, open the [raw file on GitHub](https://raw.githubusercontent.com/diegrinsekatze-coder/google-translate-stowaway/main/google-translate-stowaway.user.js); Tampermonkey shows the install dialog. **Klick Install**
+Alternatively, open the [raw file on GitHub](https://raw.githubusercontent.com/diegrinsekatze-coder/google-translate-stowaway/main/google-translate-stowaway.user.js); Tampermonkey shows the install dialog **Klick Install**.
 4. Go to Google, search for "translate" (or "übersetzer"), and press **Ctrl+Shift+Y** to open the settings.
 5. Choose a provider, paste your API key, pick a model and click **Save**.
 6. The first time a request is sent, Tampermonkey asks for permission to connect to `api.anthropic.com` or `api.openai.com`. Allow it.
